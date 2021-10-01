@@ -60,7 +60,7 @@ class Muffin //models one single dice cube
     noStroke();
     quad(myX - 30, myY, myX + 30, myY, myX + 20, myY + 35, myX - 20, myY + 35);
     bezier(myX + 20, myY + 35, myX + 15, myY + 45,  myX - 15, myY + 45, myX - 20, myY + 35);
-    stroke();
+    stroke(0);
     //muffin
     fill(#FAD242);
     ellipse(myX, myY, 62, 40);
